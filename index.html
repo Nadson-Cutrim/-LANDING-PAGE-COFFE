@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffe</title>
+    <link rel="stylesheet" href="style.css" />
     <meta
       name="description"
       content="Explore dezenas de variações da bebida favorita dos Dev's."
@@ -12,64 +13,76 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <span>Coffe</span>
-          <li><a href="">Home</a></li>
-          <li><a href="">Receitas</a></li>
-          <li><a href="">Novidades</a></li>
-          <li><a href="">Melhor avaliadas</a></li>
+        <span class="logo">Coffe</span>
+        <ul class="menu">
+          <li><a>Home</a></li>
+          <li><a>Receitas</a></li>
+          <li><a>Novidades</a></li>
+          <li><a>Melhor avaliadas</a></li>
         </ul>
-        <a href="">GitHub</a>
+        <a class="github">GitHub</a>
       </nav>
     </header>
     <main>
-        <section>
-            <header>
-                <span>Novidades</span>
-                <h1>Encontre a receita perfeita</h1>
-                <hr>
-                <h2>Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
-            </header>
-            
-            <div><figure><img src="assets/image 10.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 11.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 12.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 13.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 14.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 15.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 16.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 17.svg" alt=""></figure></div>
-            <div><figure><img src="assets/image 18.svg" alt=""></figure></div>
-           
+      <div class="principal">
+        <section class="hero">
+          <header class="hero-conteudo">
+            <span class="destaque marron">Novidades</span>
+            <h1>Encontre a receita perfeita</h1>
+            <hr/>
+            <h2 class="hero-subtitulo">
+              Explore dezenas de variações da bebida favorita entre os devs ao
+              redor mundo!
+            </h2>
+          </header>
+
+          <div class="hero-img">
+            <figure><img src="assets/image 10.svg" alt="" /></figure>
+            <figure><img src="assets/image 11.svg" alt="" /></figure>
+            <figure><img src="assets/image 12.svg" alt="" /></figure>
+            <figure><img src="assets/image 13.svg" alt="" /></figure>
+            <figure><img src="assets/image 14.svg" alt="" /></figure>
+            <figure><img src="assets/image 15.svg" alt="" /></figure>
+            <figure><img src="assets/image 16.svg" alt="" /></figure>
+            <figure><img src="assets/image 17.svg" alt="" /></figure>
+            <figure><img src="assets/image 18.svg" alt="" /></figure>
+          </div>
         </section>
-            <section>
-                <button>
-                <img src="assets/Button.svg" alt="">
-                </button>
-            </section>
-        <section>
+      </div>
+      <section class="botao-container">
+        <button type="button">
+          <img src="assets/Button.svg" alt="" />
+        </button>
+      </section>
+      <section class="receitas">
+        <header>
+          <span>Receitas</span>
+          <h2>Dê uma olhada nas receitas mais amadas!</h2>
+        </header>
+        <div>
+          <div>
             <header>
-                <span>Receitas</span>
-                <h2>Dê uma olhada nas receitas mais amadas!</h2>
+              <div>
+                <span>EM ALTA 🔥</span>
+                <h3>Capputino ☕</h3>
+              </div>
+              <p>Extraordinário - 4/4</p>
             </header>
+            <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
             <div>
-                <div>
-                    <header>
-                        <div>
-                        <span>EM ALTA 🔥</span>
-                        <h3>Capputino ☕</h3>
-                        </div>
-                        <p>Extraordinário - 4/4</p>
-                    </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/134233605?v=4" alt="">
-                        <span>Nadson Cutrim</span>
-                    </div>
-                </div>
+              <img
+                src="https://avatars.githubusercontent.com/u/134233605?v=4"
+                alt=""
+              />
+              <span>Nadson Cutrim</span>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Copyright &lt;Coffe>2025</p>
+      <p>Feito por Nadson Cutrim 🎈</p>
+    </footer>
   </body>
 </html>

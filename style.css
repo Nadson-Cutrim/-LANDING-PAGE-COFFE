@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-do-fundo: #1f1517;
+    --cor-do-texto: #FFFFFF;
+    --menu-text: #FFF2E780;
+    --hero-color: #181012;
+    --font-inter: Inter, sans-serif;
+    --font-teko: Teko, sans-serif;
+    --font-mont: Montserrat, sans-serif;
+    --font-epilogue: Epilogue, sans-serif;
+}
+
+body {
+    background: var(--cor-do-fundo);
+    color: var(--cor-do-texto);
+
+}
+
+html {
+    font-family: var(--font-inter);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    font-family: var(--font-teko);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: var(--menu-text);
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: var(--hero-color);
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+    align-items: center;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: var(--font-epilogue);
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marron {
+    color: #A45A49;
+}
+
+h1 {
+    font-family: var(--font-mont);
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitulo {
+    color: #C7BAB3;
+    font-family: var(--font-inter);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-img {
+    max-width: 58%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+}
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #A45A49;
+}
+.receitas{
+  display: flex;
+    
+}
