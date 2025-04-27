@@ -12,6 +12,7 @@
     --menu-text: #FFF2E780;
     --hero-color: #181012;
     --font-color-descripition: #03ff18fd;
+    --color-footer: #23181A;
     --font-inter: Inter, sans-serif;
     --font-teko: Teko, sans-serif;
     --font-mont: Montserrat, sans-serif;
@@ -170,11 +171,12 @@ button {
 
 }
 
-receitas-subtitulo {
+.receitas-subtitulo {
     font-family: var(--font-inter);
     font-size: 1rem;
     font-weight: 400;
-    font-style: normal;
+    color: #C7BAB3;
+
 }
 
 .receitas-card-container {
@@ -193,6 +195,7 @@ receitas-subtitulo {
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
+    margin-top: 2rem;
 }
 
 .receitas-card-cabecalho {
@@ -255,7 +258,7 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    background: #3a0510
+    background: var(--color-footer)
 }
 
 .footer-copy {
@@ -266,6 +269,8 @@ footer {
 }
 
 .footer-autor {
-    color: #fff2e780;
-    
+    color: var(colo);
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 500;
 }
